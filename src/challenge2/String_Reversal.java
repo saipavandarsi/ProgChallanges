@@ -4,14 +4,14 @@ public class String_Reversal {
 	
 	public void string_rev1(String revstr1) {
 		for ( int i= revstr1.length()-1 ; i >= 0 ; i--){
-			System.out.println(revstr1.charAt(i));
+			System.out.print(revstr1.charAt(i));
 		}
 	}
 	
 	public void string_rev2(String revstr2) {
-		char strarr[] = revstr2.toCharArray();
-		for (int i = strarr.length -1 ; i >= 0 ; i--) {
-			System.out.println(strarr[i]);
+		char strArr[] = revstr2.toCharArray();
+		for (int i = strArr.length -1 ; i >= 0 ; i--) {
+			System.out.print(strArr[i]);
 		}
 	}
 	public static void main(String[] args) {
